@@ -1,0 +1,17 @@
+# Google 核心服务
+google.com
+www.google.com
+mail.google.com
+drive.google.com
+docs.google.com
+maps.google.com
+
+# 其他服务
+accounts.google.com
+play.google.com
+photos.google.com
+calendar.google.com
+
+# 防止区域限制的域名
+googleapis.com
+fonts.googleapis.com
