@@ -1,0 +1,25 @@
+name: Create Google520 Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir package
+          cp scripts/* package/
+          cp hosts package/
+          zip -r Google520_Scripts.zip package/
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: Google520_Scripts.zip
+          body: |
+            ### Google520 多平台工具包
+            包含各系统更新脚本和最新Hosts配置
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
