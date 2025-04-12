@@ -1,1 +1,17 @@
+# Google520 Hosts Start
+# Last updated: 2025-04-12 00:46:50
+# Project: https://github.com/yhjyhjlqx/Google520
 
+127.0.0.1 google.com
+127.0.0.1 www.google.com
+127.0.0.1 mail.google.com
+127.0.0.1 drive.google.com
+127.0.0.1 docs.google.com
+127.0.0.1 maps.google.com
+127.0.0.1 accounts.google.com
+127.0.0.1 play.google.com
+127.0.0.1 photos.google.com
+127.0.0.1 calendar.google.com
+127.0.0.1 googleapis.com
+127.0.0.1 fonts.googleapis.com
+# Google520 Hosts End
