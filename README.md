@@ -12,7 +12,7 @@ irm https://raw.githubusercontent.com/yhjyhjlqx/Google520/main/scripts/windows_u
 curl -sL https://raw.githubusercontent.com/yhjyhjlqx/Google520/main/scripts/macos_update.sh or https://raw.githubusercontent.com/yhjyhjlqx/Google520/main/scripts/linux_update.sh| sudo bash
 
 ## 特性
-- 每6小时自动更新Hosts
+- 每4小时自动更新Hosts
 - 支持Windows/macOS/Linux
 - 非破坏性更新（保留原有配置）
 
